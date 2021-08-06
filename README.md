@@ -65,7 +65,19 @@ In meeting the minimum viable product (MVP) specifications listed below, your pr
 Be prepared to demonstrate your understanding of this week's concepts by answering questions on the following topics. You might prepare by writing down your own answers before hand.
 
 1. What is the DOM?
+    - The Document objeect model is a data structure known as a Tree, because parent elements have nested children elements that we can directly manipulate either parent or child node
+
+
 2. What is an event?
+    A event is a interaction that is either casued by the browser or user
+
 3. What is an event listener?
+    its a method that listens out for an event. ex: click, mouseover, select etc.
+    then performs a given action
+
 4. Why would we convert a NodeList into an Array?
+
+    To use advanced array methods such as forEach, map, filter etc.
+
 5. What is a component?
+    Reuseable code helps with DRY and are good ways to make factory functions
