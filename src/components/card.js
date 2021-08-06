@@ -48,6 +48,9 @@ const Card = (article) => {
   const authorName = document.createElement("span")
   authorName.textContent = `By ${article.authorName}`
 
+  const test = document.createElement("p")
+  test.textContent = "This could be because the text is broken up by multiple elements. In this case, you can provide a function for your text matcher to make your matcher more flexible."
+
 
 
   // Hierarchy
